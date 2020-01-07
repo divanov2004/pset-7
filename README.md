@@ -151,7 +151,37 @@ Use the provided `grade.js` file to verify your code against my test cases.
 
 ## Deliverables
 
-TODO
+You can test each of your functions indivually by running the `grader.js` file with the appropriate flag. The flag should represent either the function you wish to test, or `all` to test everything at once.
+
+For example, you can test the `commonEnd` function with the following command.
+
+```
+node grader.js commonEnd
+```
+
+This outputs all failed test cases, which includes the arguments passed into the function, the expected output, and the actual output.
+
+```
+Test Case 322 -- Fail.
+  - call: commonEnd(["one", "two"], ["three", "four"])
+  - expected: false
+  - actual: true
+
+commonEnd -- passed 312 out of 325 test cases.
+```
+
+Your job is the write correct code that passes each test case for every exercise.
+
+ - `commonEnd` - 325 test cases
+ - `endsMeet` - 97 test cases
+ - `difference` - 15 test cases
+ - `max` - 24 test cases
+ - `middle` - 22 test cases
+ - `increasing` - 19 test cases
+ - `everywhere` - 136 test cases
+ - `consecutive` - 20 test cases
+ - `balance` - 18 test cases
+ - `clumps` - 17 test cases 
 
 ## Deadline
 
