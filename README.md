@@ -172,16 +172,16 @@ commonEnd -- passed 312 out of 325 test cases.
 
 Your job is the write correct code that passes each test case for every exercise.
 
- - `commonEnd` - 325 test cases
- - `endsMeet` - 97 test cases
- - `difference` - 15 test cases
- - `max` - 24 test cases
- - `middle` - 22 test cases
- - `increasing` - 19 test cases
- - `everywhere` - 136 test cases
- - `consecutive` - 20 test cases
- - `balance` - 18 test cases
- - `clumps` - 17 test cases 
+ - `commonEnd` - 324 test cases
+ - `endsMeet` - 96 test cases
+ - `difference` - 14 test cases
+ - `max` - 23 test cases
+ - `middle` - 21 test cases
+ - `increasing` - 18 test cases
+ - `everywhere` - 135 test cases
+ - `consecutive` - 19 test cases
+ - `balance` - 17 test cases
+ - `clumps` - 16 test cases 
 
 ## Deadline
 
