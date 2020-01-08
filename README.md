@@ -53,7 +53,7 @@ Work through these exercises on your own. Experiment, make mistakes, ask questio
 
 ### Exercise 1 (`commonEnd`)
 
-Given two arrays, `a` and `b`, return `true` if the arrays have either the same first element or the same last element. The arrays must meed the following specifications, otherwise return you should return `false`. Use strict equality when making your comparisons.
+Given two arrays, `a` and `b`, return `true` if the arrays have either the same first element or the same last element. The arrays must meed the following specifications, otherwise you should return `false`. Use strict equality when making your comparisons.
 
 - `a` and `b` must not be `undefined`
 - `a` and `b` must have a length of at least `1`
