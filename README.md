@@ -66,6 +66,7 @@ Given an array, `values`, return a new array comprised of the first and last `n`
 
 - `values` must not be `undefined`
 - `values` must have a length of at least `n`
+- `n` must be a non-negative integer
 
 Use the provided `grade.js` file to verify your code against my test cases.
 
