@@ -77,7 +77,7 @@ function testCommonEnd() {
 
       if (expected !== actual) {
         console.log(`Test Case ${tc + 1} -- Fail.`);
-        console.log(`  - call: commonEnd(${format(a)}], [${format(b)})`);
+        console.log(`  - call: commonEnd(${format(a)}, ${format(b)})`);
         console.log(`  - expected: ${expected}`);
         console.log(`  - actual: ${actual}\n`);
       } else {
