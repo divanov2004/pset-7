@@ -366,7 +366,9 @@ function testClumps() {
  */
 
 function isEqual(expected, actual) {
-  if (expected && !actual || !expected && actual) {
+  if (!expected && !actual) {
+    return true;
+  } else if (expected && !actual || !expected && actual) {
     return false;
   } else if (expected.length !== actual.length) {
     return false;
