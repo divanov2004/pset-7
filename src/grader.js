@@ -63,7 +63,7 @@ switch (fn) {
  * Tests the commonEnd function.
  */
 
-function testCommonEnd() {  
+function testCommonEnd() {
   const { parameters } = tests.exercises.find((exercise) => {
     return exercise.name === "commonEnd";
   });
@@ -359,7 +359,7 @@ function testClumps() {
 
 /**
  * Determines the equality of two arrays.
- * 
+ *
  * @param {*} expected the expected array.
  * @param {*} actual  the actual array.
  * @return true if both arrays are equal, otherwise false.
@@ -368,7 +368,7 @@ function testClumps() {
 function isEqual(expected, actual) {
   if (!expected && !actual) {
     return true;
-  } else if (expected && !actual || !expected && actual) {
+  } else if ((expected && !actual) || (!expected && actual)) {
     return false;
   } else if (expected.length !== actual.length) {
     return false;
@@ -399,12 +399,12 @@ function format(arr) {
   for (let i = 0; i < arr.length; i++) {
     if (arr[i]) {
       if (typeof arr[i] === "string") {
-        formatted = formatted + ((i === arr.length - 1) ? `\"${arr[i]}\"` : `\"${arr[i]}\", `);
+        formatted = formatted + (i === arr.length - 1 ? `\"${arr[i]}\"` : `\"${arr[i]}\", `);
       } else if (typeof arr[i] === "number") {
-        formatted = formatted + ((i === arr.length - 1) ? `${arr[i]}` : `${arr[i]}, `);
+        formatted = formatted + (i === arr.length - 1 ? `${arr[i]}` : `${arr[i]}, `);
       }
     } else {
-      formatted = formatted + ((i === arr.length - 1) ? "undefined" : "undefined, ");
+      formatted = formatted + (i === arr.length - 1 ? "undefined" : "undefined, ");
     }
   }
 
