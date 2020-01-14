@@ -51,6 +51,8 @@ The specifications for each exercise are outlined below. Your job is to write li
 
 Work through these exercises on your own. Experiment, make mistakes, ask questions, and fix your mistakes. It's the only way to get good at programming.
 
+While each of these exercises can be solved using only loops and conditional statements, the built-in Array methods will surely make your lives much easier. [Read the documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) and use these methods to help streamline your code!
+
 ### Exercise 1 (`commonEnd`)
 
 Given two arrays, `a` and `b`, return `true` if the arrays have either the same first element or the same last element. The arrays must meed the following specifications, otherwise you should return `false`. Use strict equality when making your comparisons.
