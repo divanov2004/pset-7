@@ -1,2 +1,3 @@
 node_modules/
-src/unreleased.js
+src/solution.js
+src/naive-solution.js
