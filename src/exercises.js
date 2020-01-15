@@ -3,44 +3,45 @@ function commonEnd(a, b) {
     return false;
   }
 
-  // write your code here ughhhhh
+
+
 }
 
 function endsMeet(values, n) {
-  // write your code here
+
 }
 
 function difference(numbers) {
-  // write your code here
+
 }
 
 function max(number) {
-  // write your code here
+
 }
 
 function middle(values) {
-  // write your code here
+
 }
 
 function increasing(numbers) {
-  // write your code here
+
 }
 
 function everywhere(values, x) {
-  // write your code here
+
 }
 
 function consecutive(numbers) {
-  // write your code here
+
 }
 
 function balance(numbers) {
-  // write your code here
+
   console.log("test");
 }
 
 function clumps(values) {
-  // write your code here
+
 }
 
 /*
